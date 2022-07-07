@@ -1,7 +1,53 @@
-p{  
-    font-size: 20rem;
-    display: block;
-    width: 100%;
-    text-align: center;
-    color: rgb(97, 219, 193);
-}
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+ }
+ body{
+      max-width: 100vw;
+      width: 100%;
+      height: 100vh;
+      display: flex; /*acomodar elemetos en fila*/
+      flex-direction: column;
+      justify-content: center; 
+      align-items: center;
+      background-image: linear-gradient(to bottom, #fe001a, rgb(247, 102, 102) );
+  } 
+  form{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 150px;
+    width: 17%;
+  }
+  .forn-control{
+    display: flex;
+    border-bottom: 1px solid white;
+    padding: 8px 0px;
+    
+  }
+  input{
+    border: none;
+    background-color: transparent;
+  }
+  .logo{
+    width: 100px;
+  }
+  .Register{
+      display: flex ;
+    justify-content: space-between;
+  }
+  ::placeholder{
+    color: black;
+  }
+  button{
+      border: 1px solid black;
+      background-color: transparent;
+      padding: 5px;
+      border-radius: 10px;
+  }
+  .link-register{
+    color: black;
+  }
